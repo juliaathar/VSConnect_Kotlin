@@ -20,10 +20,38 @@
                 android:layout_weight="1"
                 android:id="@+id/nomeServico"
                 android:textSize="18dp"
+                android:fontFamily="@font/titilliumweb_bold"
                 android:textColor="@color/azul_marinho"
                 android:text="xxxxx"
+                android:maxLength="20"
+                android:layout_marginRight="5dp"
+        />
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/valorServico"
+                android:fontFamily="@font/titilliumweb_bold"
+                android:textSize="18dp"
+                android:textColor="@color/azul_marinho"
+                android:text="R$ 900.00"
+                android:gravity="end"
         />
 
     </LinearLayout>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/descricaoServico"
+            android:textSize="16dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/titilliumweb_light"
+            android:maxLength="200"
+            android:layout_marginTop="8dp"
+    android:text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"/>
+
+
 
 </LinearLayout>

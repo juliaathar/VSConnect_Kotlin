@@ -7,7 +7,7 @@ import java.net.URL
 
 class RetrofitConfig {
     companion object {
-        fun obterInstanciaRetrofit(url: String = ""): Retrofit {
+        fun obterInstanciaRetrofit(url: String = "http://172.16.26.105:8099/"): Retrofit {
             return Retrofit.Builder().
             baseUrl(url).
             addConverterFactory(GsonConverterFactory.create()).build()
